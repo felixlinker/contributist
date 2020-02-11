@@ -11,7 +11,7 @@ This is how the result looks like:
 
 ![Chart example](doc/exm.png)
 
-As you can see, my Friday in calendar week is pretty crowded.
+As you can see, my Friday in calendar week 10 is pretty crowded.
 
 ## Setup
 
