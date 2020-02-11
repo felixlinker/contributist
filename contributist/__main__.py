@@ -14,5 +14,5 @@ parser = ArgumentParser()
 parser.add_argument('--config', '-c', action=LoadConfig, nargs=1, required=True)
 args = parser.parse_args()
 
-connection = TodoistConnect(args.token, args.weight_tags)
+connection = TodoistConnect(args.token, args.weight_tags, args.default_weight)
 connection.connect()
