@@ -42,4 +42,4 @@ To display your schedule, execute:
 pipenv run python -m contributist --config config.json --days 28
 ```
 
-They `--days` argument is optional.
+The `--days` argument is optional.
