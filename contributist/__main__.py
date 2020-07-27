@@ -9,7 +9,7 @@ from contributist.viz import plt_heatmap
 
 class LoadConfig(Action):
     def __call__(self, parser, namespace, values, option_string=None):
-        with open(values[0], 'r') as fp:
+        with open(values[0], 'r', encoding='utf-8') as fp:
             cfg = json.load(fp)
             for k, v in cfg.items():
                 setattr(namespace, k, v)
